@@ -1,0 +1,159 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    color: #fff;
+    background-color: #0e0f0e;
+    text-align: center;
+    margin: 0%;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.content-title{
+    font-size: 2.5rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.top-menu{
+    display: flex;
+}
+
+.nav{
+    margin-left: auto;
+}
+
+.menu-item{
+    margin-right: 20px;
+}
+
+.main-visual{
+    position: relative;
+}
+
+.main-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main-title{
+    font-size: 3rem;
+}
+
+.main-description{
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+
+.main-img{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../cofeeimg/coffee-01.jpg");
+}
+
+.content{
+    height: 100vh;
+    padding: 0 100px;
+}
+
+.about{
+    background-color: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-description{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.news-title{
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.news-description{
+    font-size: 1;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.news-link{
+    font-size: 1.5rem;
+}
+
+.news-img{
+    width: 100%;
+}
+
+.news-list{
+    display: flex;
+    justify-content: center;
+}
+
+.news-items{
+    margin-left: 20px;
+}
+
+.contact-description{
+    font-size: 1.5rem;
+}
+
+.contact-lavel{
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+a{
+    color: #fff;
+}
+
+
+
+.contact-content{
+    text-align: left;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%);
+}
+
+
+.contact-input{
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 7px 0;
+}
+
+.contact-textarea{
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.contact-btn{
+    color: #fff;
+    background-color: #0099ff;
+    border: 1px solid white;
+}

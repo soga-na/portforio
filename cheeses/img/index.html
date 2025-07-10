@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>cheeses</title>
+</head>
+
+<body>
+<div class="body">
+  <div>
+    <header  class="header">
+    <div>
+    <nav class="nav">
+    <ul class="nav-item">
+        <li class="has-sub">
+            <a href="" class="content">≡</a>
+            <ul class="sub">
+                    <li>
+                        <a href="#menu">menu</a>
+                    </li>
+                    <li>
+                        <a href="#concept">concept</a>
+                    </li>
+                    <li>
+                        <a href="#access">access</a>
+                    </li>
+            </ul>
+        </li>
+    </ul>
+    </nav>
+    </div>
+    <div class="logodiv">
+    <h1 class="logo">
+        <img src="./cheeses (3).png" alt="logo" id="header" class="logo-item" class="logopic">
+    </h1>
+    </div>
+    </header>
+  </div>
+  <div class="main">
+    <main>
+    <div class="main-pic">
+    <h2 class="main-description">貴方へ贈る<br>想い出の味</h2>
+    </div>
+  </div>
+
+
+  <section id="menu" class="menu">
+    <div class="main-re">
+       <h3  class="section-title menu-title">-MENU-</h3>
+     <ul class="menu-list">
+       <article>
+         <li class="menu-items">
+           <img class="menu-img" src="./Group 1.png" alt="" width="262px" height="359px">
+         </li>
+        </article>
+        <article>
+         <li class="menu-items">
+           <img class="menu-img" src="./Group 4.png" alt="" width="262px" height="359px">
+         </li>
+        </article>
+        <article>
+         <li class="menu-items">
+           <img class="menu-img" src="./Group 3.png" alt="" width="262px" height="359px">
+         </li>
+        </article>
+     </ul>
+     </div>
+  </section>
+  <section id="concept" class="concept">
+     <h3  class="section-title">-CONCEPT-</h3>
+     <div class="concept-oya">
+      <img src="./Union (7).png" alt="" class="concept-pic">
+      <div class="concept-text">
+      <h4 class="concept-title">「初めての懐かしさ」</h4>
+      <p class="concept-description" >当店のチーズは、<br>すべて北海道の生乳から作られた<br>最高級ナチュラルチーズ。<br><br>上品ながらも舌になじむなめらかさは、<br>お客様に初めての懐かしさを<br>ご提供いたします。</p>
+      </div>
+      </div>
+  </section>
+    <section id="access" class="access">
+     <h3  class="section-title">-access-</h3>
+     <div class="access-oya">
+      <div class="access-text">
+      <p class="access-description">住所：○○○○○○○○○○○<br><br>電話番号：○○○○‐○○○‐○○○○</p>
+      <p class="mapurl">マップURL;</p>
+      </div>
+      <img src="./Union (8).png" alt="" class="access-pic">
+      </div>
+    </section>
+  <section  class="sonota">
+    <a href="#header"><img src="./Group.png" alt="" class="to-top"></a>
+    <p class="pagetop">Page top</p>
+  </section>
+</main>
+<footer>
+    <section class="container">
+    <div class="wave"></div>
+    <p class="ayanas">©ayana.s</p>
+    <img src="./Vector.png" alt="" class="mail">
+    <img src="./Instagram.png" alt="" class="Instagram">
+    <img src="./cheeses (3).png" alt="" class="footer-logo">
+    </section>
+</footer>
+</div>
+
+<script>
+ var parent = document.querySelectorAll(".has-sub");
+ var node = Array.prototype.slice.call(parent, 0);
+
+  node.forEach(function (element) {
+        element.addEventListener(
+        "mouseover",
+        function () {
+            element.querySelector(".sub").classList.add("active");
+        },
+        false
+        );
+
+        element.addEventListener(
+        "mouseout",
+        function () {
+            element.querySelector(".sub").classList.remove("active");
+        },
+        false
+        );
+    });
+</script>
+</body>
+</html>

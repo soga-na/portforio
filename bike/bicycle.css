@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+body{
+    color: #383E45;
+}
+.content-title{
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: #383E45;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-description{
+    font-size: 14px;
+}
+
+.list-discription{
+    font-size: 14.4px;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+
+.top-menu{
+    display: flex;
+}
+
+.menu-item{
+    margin-right: 30px;
+}
+
+.logo{
+    background-color: #393E46;
+    width: 120px;
+    height: 40px;
+    margin-left: 9%;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+} 
+
+.logo-inside{
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.nav{
+    font-size: 14.4px;
+    margin-left: auto;
+}
+
+.main-img{
+    height: 600px;
+    background-image: url("./bicycle.pc/Mask group.png");
+    background-size: cover;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    background-position: center center;
+}
+
+@media (max-width: 600px){
+    .about-content{
+        flex-direction: column;
+    }
+    .bicycle-list{
+        flex-direction: column;
+    }
+    li.about1{
+        margin-left: 0px;
+    }
+    ul.about-content{
+        padding: 0%;
+    }
+    ul.bicycle-list{
+        padding: 0%;
+    }
+    li.list-items{
+        margin: 0px;
+    }
+}
+
+.title-about{
+    margin-left: 50%;
+}
+
+.about-title{
+    font-size: 16px
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+
+.about1{
+    margin-left: 30px;
+}
+
+
+.about1-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.about1-title{
+    font-size: 16px;
+}
+
+.about-description{
+    font-size: 14.4px;
+}
+
+.title-about{
+    margin-bottom: 70px;
+}
+
+.title-bicycle{
+    margin-left: 50%;
+}
+
+.bicycle-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 132px;
+}
+
+.list-items{
+    margin-left: 17.2px;
+}
+
+
+.list-img{
+    width: 100%;
+}
+
+.list-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.list-discription{
+    text-align: center;
+}
+
+.footer{
+    font-size: 8px;
+    margin-left: 50%;
+}
