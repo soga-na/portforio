@@ -240,7 +240,7 @@ body{
   .overlay{
    border-top: 20vh solid black;
    border-right: 48vw solid transparent;
-   border-bottom: 28vh solid black;
+   border-bottom: 50vh solid black;
    border-left: 50vw solid black;
   }
 }
@@ -249,7 +249,7 @@ body{
     .overlay{
    border-top: 25vh solid black;
    border-right: 48vw solid transparent;
-   border-bottom: 40vh solid black;
+   border-bottom: 50vh solid black;
    border-left: 50vw solid black;
   }
 }
