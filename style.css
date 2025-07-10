@@ -317,10 +317,10 @@ body{
 
 @media (max-width: 480px){
   .enimg{
-    width: 30%;
+    width: 28%;
     height: auto;
     top: auto;
-    bottom: 47%;
+    bottom: 50%;
     left: 15%;
   }
 }
@@ -352,7 +352,7 @@ body{
     width: 35%;
     height: auto;
     top: auto;
-    bottom: 30%;
+    bottom: 31%;
     left: 30%;
     right: auto;
   }
