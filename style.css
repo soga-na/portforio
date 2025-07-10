@@ -317,11 +317,11 @@ body{
 
 @media (max-width: 480px){
   .enimg{
-    width: 40%;
+    width: 30%;
     height: auto;
     top: auto;
     bottom: 47%;
-    left: 20%;
+    left: 15%;
   }
 }
 
